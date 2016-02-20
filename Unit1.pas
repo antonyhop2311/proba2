@@ -222,6 +222,7 @@ begin
 end;
 begin
 ///хуйня
+  showmessage('Чертенок из табакерки');
   if ListBox2.Items.Count=0 then exit;
   if Length(Edit1.Text)=0 then exit;
   if Length(Edit2.Text)=0 then exit;
